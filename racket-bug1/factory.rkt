@@ -9,7 +9,7 @@
 
 (define (call-foo obj k)
   ; Note: The program will work with the following line uncommented...
-  ;(print "hello world")(newline)
+  ; (print "hello world")(newline)
   ((obj 'foo) k))
 
 (module+ test
